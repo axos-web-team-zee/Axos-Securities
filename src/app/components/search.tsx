@@ -20,8 +20,10 @@ export default function SearchBar() {
       <section className={`gray-theme section-pad`}>
          <div className="containment">
             <div className="section-header">
-               <img src="https://www.axossecurities.com/-/media/Axos/Company%20Logos/logo-axos-securities"
-                  alt="" width="165" height="58" className={style.logo} />
+               <div className="text-center">
+                  <img src="https://www.axossecurities.com/-/media/Axos/Company%20Logos/logo-axos-securities"
+                     alt="" width="165" height="58" className={style.logo} />
+               </div>
                <h2 className={`header-1 gradient-text push-up ${encodeSans.className}`}>
                   Explore your next career move here.
                </h2>
