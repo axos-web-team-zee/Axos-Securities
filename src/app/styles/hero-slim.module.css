@@ -1,0 +1,55 @@
+.hero {
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   isolation: isolate
+}
+
+.hero::before {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   content: "";
+   background-color: #1e3869;
+   opacity: .65;
+   z-index: -1
+}
+
+.min_height {
+   min-height: 260px
+}
+
+.hero_h1 {
+   font-size: 52px;
+   text-shadow: 2px 1px 2px #000;
+   font-weight: 500
+}
+
+@media (max-width:1280px) {
+   .min_height {
+      min-height: 230px
+   }
+
+   .hero_h1 {
+      font-size: 48px
+   }
+}
+
+@media (max-width:1023px) {
+   .hero_h1 {
+      font-size: 40px
+   }
+}
+
+@media (max-width:768px) {
+   .min_height {
+      min-height: 163px
+   }
+
+   .hero_h1 {
+      font-size: 28px
+   }
+}

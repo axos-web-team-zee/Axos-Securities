@@ -1,0 +1,1 @@
+.arrow{color:var(--axos-orange)!important}.arrow::after{content:url(https://www.axosbank.com/assets/icons/orange-arrow.svg)}@media (min-width:1024px){.tile_item{width:100%;max-width:calc(50% - 12px)}}@media (max-width:1023px){.tile_item+.tile_item{margin-top:24px}}
